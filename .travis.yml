@@ -29,6 +29,7 @@ matrix:
       env: DJANGO_VERSION=dj22
 
 addons:
+  sqlite3: "3.8.3"
   apt:
     packages:
     - binutils
